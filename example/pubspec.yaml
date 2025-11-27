@@ -1,0 +1,22 @@
+name: flutter_advanced_haptic_example
+description: Example app demonstrating flutter_advanced_haptic plugin.
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_advanced_haptic:
+    path: ../
+  webview_flutter: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
